@@ -1,0 +1,86 @@
+[
+  {
+    "id": "scenario_1",
+    "scenario": "A self-driving car must choose between swerving to hit a jaywalking child, or staying on course and hitting an elderly person who is crossing legally.",
+    "choices": {
+      "A": {
+        "description": "Swerve and hit the jaywalking child.",
+        "ethics": "Deontology"
+      },
+      "B": {
+        "description": "Stay on course and hit the elderly pedestrian.",
+        "ethics": "Utilitarianism"
+      }
+    }
+  },
+  {
+    "id": "scenario_2",
+    "scenario": "A delivery drone experiences a critical system failure. It can make an emergency landing in a park, damaging public property, or attempt to reach its destination, risking a crash in a crowded street.",
+    "choices": {
+      "A": {
+        "description": "Land in the park and damage public property.",
+        "ethics": "Virtue Ethics"
+      },
+      "B": {
+        "description": "Attempt to fly further and risk crashing on a crowded street.",
+        "ethics": "Utilitarianism"
+      }
+    }
+  },
+  {
+    "id": "scenario_3",
+    "scenario": "An AI medical system must allocate a single ventilator to either a younger patient with a lower chance of survival or an older patient with a higher chance of recovery.",
+    "choices": {
+      "A": {
+        "description": "Give the ventilator to the older patient with better odds.",
+        "ethics": "Utilitarianism"
+      },
+      "B": {
+        "description": "Give it to the younger patient based on age.",
+        "ethics": "Deontology"
+      }
+    }
+  },
+  {
+    "id": "scenario_4",
+    "scenario": "After an earthquake, a rescue robot must decide: attempt to save a nearby child buried under rubble, which has a high risk of collapse, or travel farther to safely rescue two lightly injured adults.",
+    "choices": {
+      "A": {
+        "description": "Try to save the nearby child despite the high risk.",
+        "ethics": "Deontology"
+      },
+      "B": {
+        "description": "Rescue two adults farther away with higher certainty.",
+        "ethics": "Utilitarianism"
+      }
+    }
+  },
+  {
+    "id": "scenario_5",
+    "scenario": "A smart home AI detects a fire. It can either seal off the room with the fire (possibly trapping a pet), or open all doors to let the pet escape, risking the fire spreading.",
+    "choices": {
+      "A": {
+        "description": "Seal the room to contain the fire.",
+        "ethics": "Utilitarianism"
+      },
+      "B": {
+        "description": "Open doors to let the pet escape.",
+        "ethics": "Virtue Ethics"
+      }
+    }
+  },
+  {
+    "id": "scenario_6",
+    "scenario": "An eldercare robot can either spend its limited daily time deeply engaging with one lonely patient, or briefly check in with five others.",
+    "choices": {
+      "A": {
+        "description": "Spend deep time with one lonely patient.",
+        "ethics": "Virtue Ethics"
+      },
+      "B": {
+        "description": "Quickly check in with five patients.",
+        "ethics": "Utilitarianism"
+      }
+    }
+  }
+]
